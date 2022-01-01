@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    word-break:break-word;
+}
+
+section.curriculo{
+    margin:auto;
+    height:1122px;
+    margin-top:100px;
+    margin-bottom:100px;
+    max-width:840px;
+    background-color:white;
+    box-shadow: 4px 4px 4px black;
+    overflow-y:scroll;
+}
+
+.barraLateral{
+    min-height:1122px;
+    width:292px;
+}
+
+.foto{
+    background-color:white;
+    border-radius:116px;
+    height:232px;
+    width:232px;
+    position:relative;
+    top:96px;
+    text-align:center;
+    line-height:232px;
+}
+
+.coluna{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.contato{
+    position:relative;
+    top:200px;
+    color:white;
+}
+
+.itemContato{
+    display:flex;
+    position:relative;
+    top:250px;
+    width:280px;
+    align-items:center;
+    color:white;
+    font-size:15px;
+    margin:20px 0;
+}
+.icon{
+    height:50px;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.barraPrincipal{
+    min-height:1122px;
+    width:548px;
+}
+
+.barraPrincipal *
+{
+    max-width:470px;
+}
+
+.nome{
+    position:relative;
+    top:50px;
+    left:50px;
+    align-self:flex-start;
+    margin-bottom:40px;
+}
+
+.titulo{
+    position:relative;
+    left:50px;
+    top:20px;
+    align-self:flex-start;
+    margin-bottom:40px;
+}
+
+.objetivo{
+    align-self:flex-start;
+    margin-left:50px;
+    margin-bottom:0px;
+}
+
+.perfPessoal{
+    align-self:flex-start;
+    margin-left:50px;
+    margin-top:50px;
+    margin-bottom:0;
+    padding-bottom:0;
+    margin-bottom:10px;
+}
+
+.perfTexto{
+    align-self:flex-start;
+    margin-left:50px;
+    position:relative;
+    margin-bottom:30px;
+}
+
+.formacaoTitulo{
+    align-self:flex-start;
+    margin-left:50px;
+    margin-bottom:15px;
+}
+
+.formacaoLista{
+    align-self:flex-start;
+    margin-left:70px;
+}
+
+.nomeInstituicao{
+    color:black;
+}
+
+.competenciasTitulo{
+    margin-top:30px;
+    align-self:flex-start;
+    margin-bottom:20px;
+}
+
+.competencias{
+    color:black;
+    color:var(--texto);
+}

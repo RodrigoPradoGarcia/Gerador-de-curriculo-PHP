@@ -1,0 +1,120 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root
+{
+    --primaria:black;
+}
+
+section.pagina 
+{
+    background:radial-gradient(rgb(21, 51, 107),rgb(17, 17, 73));
+}
+
+
+
+.voltar
+{
+    text-decoration:none;
+    color:black;
+    transition:.5s;
+    background:white;
+    box-shadow:2px 2px 2px black;
+}
+
+.voltar:hover
+{
+    background:#222222;
+    color:white;
+    box-shadow:none;
+}
+
+header
+{
+    position: sticky;
+    top:0px;
+}
+
+.botao
+{
+    padding:20px 25px;
+    background-color:white;
+    color:black;
+    font-weight:900;
+    transition: .5s;
+    box-shadow: 4px 4px 4px gray;
+}
+
+.botao:hover{
+    background:black;
+    color:white;
+    box-shadow:none;
+}
+
+.formBotao
+{
+    padding:20px 25px;
+    background-color:black;
+    color:white;
+    font-weight:900;
+    transition: .5s;
+    box-shadow: 4px 4px 4px gray; 
+}
+
+.formBotao:hover{
+    background:white;
+    color:black;
+    box-shadow:none;
+}
+
+
+div.card
+{
+    box-shadow:4px 4px 4px black;
+}
+
+input,textarea
+{
+    font-size:20px;
+    width:100%;
+}
+
+input[type='color']
+{
+    height:50px;
+    width:50px;
+}
+
+.form-item
+{
+    margin-bottom:20px;
+}
+
+.form-secao
+{
+    box-shadow:4px 4px 4px black;
+    width:100%;
+    max-width:600px;;
+}
+
+.titulo
+{
+    color:#5555FF;
+    font-weight:900;
+    margin-bottom:30px;
+}
+
+div.telaErro
+{
+    background:white;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:4px 4px 4px black;
+}
